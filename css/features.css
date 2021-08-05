@@ -4,7 +4,10 @@
 
 .features h2 {
   font-size: 4rem;
+  font-weight: 400;
   text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
 }
 
 .tools-grid {
@@ -13,7 +16,7 @@
   grid-template-rows: repeat(2, 108px);
   grid-gap: 0.9rem 1rem;
   justify-content: center;
-  padding-bottom: 15rem;
+  margin-bottom: 5rem;
 }
 
 .tool img {
@@ -26,14 +29,14 @@
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 /* Work hub grid */
 
 .hub-grid {
   display: grid;
-  grid-template-columns: repeat(3, 408px);
-  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.4rem;
   justify-content: center;
   padding-bottom: 2rem;
@@ -45,6 +48,7 @@
   justify-content: space-evenly;
   background-color: var(--hub-item-bg);
   border-radius: 16px;
+  padding: 2rem;
 }
 
 .hub-item img {
@@ -66,6 +70,14 @@
 }
 
 /* Security */
+
+.security {
+  margin-top: 6rem;
+}
+
+.security h2 {
+  margin-bottom: 7rem;
+}
 
 .security-feat {
   width: 80%;
@@ -97,7 +109,7 @@
 
 .connectivity h2 {
   font-size: 4rem;
-  padding-top: 12rem;
+  margin-top: 12rem;
 }
 
 .btn-connect {
@@ -106,6 +118,7 @@
   padding: 0.5rem 2.4rem;
   border-radius: 12px;
   transition: all 0.3s ease-in;
+  margin-top: 6rem;
 }
 
 .btn-connect:hover {

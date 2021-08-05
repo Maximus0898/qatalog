@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -16,12 +12,16 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Qatalog</title>
+    <title>Qatalog || Work Hub</title>
   </head>
   <body>
     <header class="header container">
       <a href="#" class="logo"><img src="images/logo.svg" alt="logo" /></a>
+      <button class="menu-toggler">
+        <i class="fas fa-bars"></i>
+      </button>
       <nav class="navbar">
+        <button class="closeBtn">&times;</button>
         <ul class="nav-list">
           <li class="nav-item">
             <a href="#">Work hub <i class="fas fa-chevron-down"></i></a>
@@ -49,7 +49,9 @@
       <p class="subtitle">The pains of work are real</p>
       <div class="cards-wrapper">
         <div class="card-quote">
-          <img src="images/company-2.png" alt="airbnb" class="c-logo" />
+          <div class="logo-wrapper">
+            <img src="images/company-2.png" alt="hp" class="c-logo" />
+          </div>
           <div class="card-text">
             <p class="quote-text">
               I recently had to jump on 10+ different calls across eight
@@ -62,7 +64,9 @@
           </div>
         </div>
         <div class="card-quote card-main">
-          <img src="images/company-3.png" alt="square" class="c-logo" />
+          <div class="logo-wrapper">
+            <img src="images/company-3.png" alt="hp" class="c-logo" />
+          </div>
           <div class="card-text">
             <p class="quote-text">
               We spend about 45 minutes every day invested in processes for
@@ -74,19 +78,20 @@
           </div>
         </div>
         <div class="card-quote">
-          <img src="images/company-1.png" alt="hp" class="c-logo" />
+          <div class="logo-wrapper">
+            <img src="images/company-1.png" alt="hp" class="c-logo" />
+          </div>
           <div class="card-text">
             <p class="quote-text">
               We deliver on such an expansive innovation agenda with so many
-              projects going on at any time, it can be hard to maintain
-              momentum.
+              projects going on at any time.
             </p>
             <p class="author">Patrick Osborne <span> Vice President</span></p>
           </div>
         </div>
       </div>
     </section>
-    <section class="features">
+    <section class="features container">
       <h2>It's time for a new way of work</h2>
       <p class="subtitle">
         All your people, teams, and tools, and none of the noise
@@ -151,23 +156,26 @@
           </div>
         </div>
       </div>
-      <h2>Secure and private</h2>
-      <div class="security-feat">
-        <div class="security-item">
-          <i class="fas fa-fingerprint"></i>
-          <p>GDPR & CCPA compliant</p>
-        </div>
-        <div class="security-item">
-          <i class="fas fa-key"></i>
-          <p>Pen-tested</p>
-        </div>
-        <div class="security-item">
-          <i class="fas fa-lock"></i>
-          <p>SSL-Certified</p>
+
+      <div class="security">
+        <h2>Secure and private</h2>
+        <div class="security-feat">
+          <div class="security-item">
+            <i class="fas fa-fingerprint"></i>
+            <p>GDPR & CCPA compliant</p>
+          </div>
+          <div class="security-item">
+            <i class="fas fa-key"></i>
+            <p>Pen-tested</p>
+          </div>
+          <div class="security-item">
+            <i class="fas fa-lock"></i>
+            <p>SSL-Certified</p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="connectivity">
+    <section class="connectivity container">
       <div class="img-wrapper">
         <img src="images/img-3.png" alt="team" />
       </div>
@@ -258,5 +266,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>

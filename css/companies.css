@@ -6,6 +6,7 @@
 
 .quotes h2 {
   font-size: 4rem;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -13,16 +14,21 @@
   font-size: 3rem;
   color: var(--text-gray);
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .cards-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2.5rem;
+  grid-gap: 2.5rem;
   justify-content: center;
 }
 
 .card-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
   padding: 3.2rem;
   background-color: var(--card-secondary);
   border-radius: 16px;
@@ -38,15 +44,8 @@
 
 .quote-text {
   font-size: 2.4rem;
-  line-height: 32px;
-}
-
-.card-main .card-text {
-  padding-top: 1rem;
-}
-
-.card-main .author {
-  padding-top: 4rem;
+  line-height: 30px;
+  padding: 2rem 0;
 }
 
 .card-text span {

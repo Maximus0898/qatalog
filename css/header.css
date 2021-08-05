@@ -23,3 +23,21 @@
 .cta:hover {
   background-color: var(--btn-hover);
 }
+
+.menu-toggler {
+  display: none;
+  border: none;
+  background-color: transparent;
+  margin-right: 1.5rem;
+}
+
+.menu-toggler i {
+  font-size: 2.5rem;
+  color: var(--text-gray);
+}
+
+.closeBtn {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
