@@ -1,0 +1,22 @@
+.hero {
+  margin: 0 auto;
+}
+
+.hero .heading {
+  width: 826px;
+  font-size: 3.9rem;
+  line-height: 48px;
+  margin: 0 auto;
+  padding-top: 14.6rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.img-wrapper {
+  width: 100%;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  display: block;
+}

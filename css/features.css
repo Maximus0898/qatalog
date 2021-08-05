@@ -1,0 +1,131 @@
+.features {
+  padding-top: 15rem;
+}
+
+.features h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 108px);
+  grid-template-rows: repeat(2, 108px);
+  grid-gap: 0.9rem 1rem;
+  justify-content: center;
+  padding-bottom: 15rem;
+}
+
+.tool img {
+  width: 100%;
+  height: 100%;
+}
+
+.dashboard-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Work hub grid */
+
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 408px);
+  grid-template-rows: repeat(2, 150px);
+  grid-gap: 2.4rem;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.hub-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--hub-item-bg);
+  border-radius: 16px;
+}
+
+.hub-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.hub-text {
+  width: 60%;
+}
+
+.hub-text h4 {
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+.hub-text p {
+  color: var(--text-gray);
+}
+
+/* Security */
+
+.security-feat {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.security-item {
+  text-align: center;
+}
+
+.security-item i {
+  font-size: 4rem;
+  color: var(--security-color);
+}
+
+.security-item p {
+  padding-top: 2.5rem;
+}
+
+/* Connectivity */
+
+.connectivity {
+  padding-top: 15rem;
+  text-align: center;
+}
+
+.connectivity h2 {
+  font-size: 4rem;
+  padding-top: 12rem;
+}
+
+.btn-connect {
+  display: inline-block;
+  background-color: var(--btn-color);
+  padding: 0.5rem 2.4rem;
+  border-radius: 12px;
+  transition: all 0.3s ease-in;
+}
+
+.btn-connect:hover {
+  background-color: var(--btn-hover);
+}
+
+.connectivity .subtitle {
+  font-size: 2.3rem;
+}
+
+/* Partner Logos */
+
+.partner-logos {
+  display: grid;
+  grid-template-columns: repeat(6, min-content);
+  justify-content: center;
+  grid-column-gap: 5rem;
+  padding-bottom: 5rem;
+}
+
+.partner-logos i {
+  font-size: 3rem;
+}

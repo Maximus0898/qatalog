@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 4rem;
+}
+
+.cta {
+  padding: 1.2rem;
+  background-color: var(--btn-color);
+  border-radius: 12px;
+  transition: all 0.3s ease-in;
+}
+
+.cta:hover {
+  background-color: var(--btn-hover);
+}

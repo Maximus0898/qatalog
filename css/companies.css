@@ -1,0 +1,54 @@
+.quotes {
+  padding-top: 21.5rem;
+  padding-bottom: 7.5rem;
+  margin: 0 auto;
+}
+
+.quotes h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 3rem;
+  color: var(--text-gray);
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2.5rem;
+  justify-content: center;
+}
+
+.card-quote {
+  padding: 3.2rem;
+  background-color: var(--card-secondary);
+  border-radius: 16px;
+}
+
+.card-quote.card-main {
+  background-color: var(--card-primary);
+}
+
+.card-main .card-text {
+  color: var(--text-black);
+}
+
+.quote-text {
+  font-size: 2.4rem;
+  line-height: 32px;
+}
+
+.card-main .card-text {
+  padding-top: 1rem;
+}
+
+.card-main .author {
+  padding-top: 4rem;
+}
+
+.card-text span {
+  display: block;
+}
